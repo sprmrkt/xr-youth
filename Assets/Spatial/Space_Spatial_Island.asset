@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Space_Spatial_Island
   m_EditorClassIdentifier: 
   version: 1
-  sku: 
-  packageName: Spatial Island
-  thumbnail: {fileID: 2800000, guid: 8556be473992b42dbb7035908e118623, type: 3}
+  sku: 65c3915cb7632e8857087dba
+  packageName: Forest Island
+  thumbnail: {fileID: 2800000, guid: b0388f4ef7c9b63428bc092187b56a96, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
     type: 2}
-  worldID: 
-  scene: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
+  worldID: j8y9eph3j3kx668esyzsg
+  scene: {fileID: 102900000, guid: 37bb0fda1b3ba4d64a15691e1fa513fb, type: 3}
   csharpAssembly: {fileID: 0}
   embeddedPackageAssets: []
   settings:
