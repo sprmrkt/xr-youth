@@ -246,7 +246,10 @@ MonoBehaviour:
     animatorEvent:
       events: []
     questEvent:
-      events: []
+      events:
+      - questID: 1
+        questEventType: 3
+        taskID: 1
   deprecated_onEnter:
     m_PersistentCalls:
       m_Calls: []

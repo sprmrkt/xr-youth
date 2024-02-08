@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45220804, g: 0.36550736, b: 0.51945823, a: 1}
+  m_IndirectSpecularColor: {r: 0.45198876, g: 0.36551028, b: 0.5192375, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3463,8 +3463,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   version: 2
-  questName: Collect 20 Mushrooms
-  description: Explore and collect 20 Mushrooms
+  questName: Explore the Scene
+  description: Explore and collect 10 mushrooms
   startAutomatically: 1
   saveUserProgress: 1
   tasksAreOrdered: 1
@@ -3472,14 +3472,45 @@ MonoBehaviour:
   questRewards: []
   tasks:
   - id: 1
-    name: number of mushrooms
+    name: Mushrooms
     type: 1
     progressSteps: 20
-    taskMarkers:
-    - {fileID: 9015954325278144870}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    taskMarkers: []
+    onStartedEvent:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+    onCompletedEvent:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+    onPreviouslyCompleted:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+  - id: 2
+    name: Answer a Question
+    type: 0
+    progressSteps: 0
+    taskMarkers: []
     onStartedEvent:
       id: 0
       unityEventIsSynced: 0
@@ -28516,12 +28547,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2998673980170633004, guid: 30b750f4fce351048bece60a8fb9e224, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 30b750f4fce351048bece60a8fb9e224, type: 3}
---- !u!1 &9015954325278144870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9015954325040610786, guid: 30b750f4fce351048bece60a8fb9e224,
-    type: 3}
-  m_PrefabInstance: {fileID: 9015954325278144869}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &9021195841993223470
 MeshRenderer:
   m_ObjectHideFlags: 0
