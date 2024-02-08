@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45220804, g: 0.36550736, b: 0.51945823, a: 1}
+  m_IndirectSpecularColor: {r: 0.45198876, g: 0.36551028, b: 0.5192375, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3365,7 +3365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 679647456a363450ab8d072b2a91f5a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: Point of interest
+  title: Answer the question!
   description: 
   backgroundColor: {r: 0, g: 0, b: 0, a: 0.4}
   foregroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4222,8 +4222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   version: 2
-  questName: Collect 20 Mushrooms
-  description: Explore and collect 20 Mushrooms
+  questName: Explore the Scene
+  description: Collect 10 mushrooms
   startAutomatically: 1
   saveUserProgress: 1
   tasksAreOrdered: 1
@@ -4231,14 +4231,45 @@ MonoBehaviour:
   questRewards: []
   tasks:
   - id: 1
-    name: number of mushrooms
+    name: Collect Mushrooms
     type: 1
-    progressSteps: 20
-    taskMarkers:
-    - {fileID: 9015954325278144870}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    progressSteps: 10
+    taskMarkers: []
+    onStartedEvent:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+    onCompletedEvent:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+    onPreviouslyCompleted:
+      id: 0
+      unityEventIsSynced: 0
+      unityEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      animatorEvent:
+        events: []
+      questEvent:
+        events: []
+  - id: 2
+    name: Answer 3 Questions
+    type: 1
+    progressSteps: 3
+    taskMarkers: []
     onStartedEvent:
       id: 0
       unityEventIsSynced: 0
@@ -29206,12 +29237,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2998673980170633004, guid: 30b750f4fce351048bece60a8fb9e224, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 30b750f4fce351048bece60a8fb9e224, type: 3}
---- !u!1 &9015954325278144870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9015954325040610786, guid: 30b750f4fce351048bece60a8fb9e224,
-    type: 3}
-  m_PrefabInstance: {fileID: 9015954325278144869}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &9021195841993223470
 MeshRenderer:
   m_ObjectHideFlags: 0
