@@ -15,7 +15,7 @@ MonoBehaviour:
   version: 1
   sku: 65c519d199cb2ea975e00bb0
   packageName: Floating Island Demo
-  thumbnail: {fileID: 2800000, guid: b0388f4ef7c9b63428bc092187b56a96, type: 3}
+  thumbnail: {fileID: 2800000, guid: 15603621318e443ffba4ab073615bba7, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
     type: 2}
   worldID: tynyd8v115hcpp2brc8xn
